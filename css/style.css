@@ -1,0 +1,495 @@
+/*------------------- Google Font -----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*------------------- common style ----------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.common-container {
+    width: 1050px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+}
+
+/*------------------ header style ------------------*/
+
+header {
+    background-color: #2D25A0;
+    width: 100%;
+    height: 650px;
+
+}
+
+/*------------------- navbar style --------------------*/
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 80px;
+}
+
+.nav-items {
+    display: flex;
+    margin-top: 42px;
+}
+
+.bar-icon {
+    display: none;
+}
+
+.nav-link {
+    list-style: none;
+    margin-left: 36px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.user-login {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 28px;
+    margin-right: 120px;
+    margin-bottom: 67px;
+
+}
+
+.btn-decoration {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    letter-spacing: 3px;
+}
+
+/*------------------- banner style --------------------*/
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 102px;
+}
+
+.banner-details {
+    margin-left: 156px;
+}
+
+.banner-title h2 {
+    font-size: 60px;
+    color: #ffffff;
+    transition: transform 2s linear 0.5s, color 2s linear 0.5s;
+}
+
+.banner-title h2:hover {
+    color: #E02C6D;
+    transform: rotateX(360deg);
+}
+
+.banner-img img {
+    width: 556px;
+    height: 438px;
+    transition: transform 2s linear 0.5s;
+}
+
+.banner-img img:hover {
+    transform: rotateY(180deg);
+}
+
+/*------------------- football players details ---------------------*/
+
+.football-players {
+    margin-top: 70px;
+}
+
+.players-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+
+.players-biography {
+    box-shadow: 1px 2px 15px #dadadd;
+    padding: 15px;
+
+}
+
+.player img {
+    width: 300px;
+    height: 256px;
+}
+
+.player-name {
+    font-size: 28px;
+    color: #18191F;
+}
+
+.player-description {
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+/*------------------ Optional Part ------------------*/
+
+.optional-part {
+    margin: 50px 0px;
+    margin-left: 182px;
+    margin-right: 156px;
+}
+
+.highlights-copa-amrica {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 66px;
+}
+
+.copa-amrica-title {
+    font-size: 40px;
+    color: #0A0826;
+}
+
+.copa-amrica-description {
+    color: #6C6C6C;
+    font-size: 16px;
+}
+
+.copa-amrica-img img {
+    width: 567px;
+    height: 427px;
+}
+
+/*--------------------
+ extra section style 
+ ---------------------*/
+
+/*-------------------- extra players ------------------*/
+
+.extra-part-title {
+    font-size: 28px;
+    color: #18191F;
+}
+
+.extra-part-1 {
+    margin-top: 10px;
+    margin-left: 182px;
+    margin-right: 156px;
+    margin-bottom: 50px;
+}
+
+.extra-players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+}
+
+.extra-players-detail {
+    position: relative;
+    width: 300px;
+    height: 220px;
+}
+
+.extra-players-img img {
+    width: 100%;
+}
+
+.player-detail {
+    display: none;
+    position: absolute;
+    width: 300px;
+    top: 0;
+    padding-top: 50px;
+
+}
+
+.player-detail h3 {
+    color: white;
+    font-size: 28px;
+    background-color: #00000054;
+    text-align: center;
+}
+
+.player-detail p {
+    color: white;
+    background-color: #00000041;
+    font-size: 15px;
+    text-align: center;
+}
+
+.extra-players-detail:hover .player-detail {
+    display: block;
+    background-color: #f5f5dc46;
+    height: 220px;
+}
+
+/*----------------- clubs section -------------------*/
+
+.extra-part-2 {
+    margin-top: 10px;
+}
+
+.different-clubs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+
+}
+
+.club-detail {
+    box-shadow: 1px 2px 15px #dadadd;
+    padding: 30px;
+}
+
+
+.club-img img {
+    width: 100%;
+    height: 256px;
+}
+
+.club-description h3 {
+    font-size: 20px;
+    color: #18191F;
+}
+
+.club-description p {
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+/*------------------- footer part -----------------------*/
+
+footer {
+    margin: 80px;
+
+}
+
+.footer-img,
+.footer-items {
+    text-align: center;
+}
+
+.footer-img img {
+    width: 484px;
+    height: 110px;
+}
+
+.footer-items {
+    margin: 10px 0px;
+}
+
+.footer-items img {
+    width: 32px;
+    height: 32px;
+    margin-left: 14px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+/*-------------------
+ Media Queries 
+ -------------------*/
+
+/*------------------- Mobile Devices ----------------------*/
+
+@media only screen and (max-width: 688px) {
+    .common-container {
+        width: 80%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .btn-decoration {
+        padding: 5px 8px;
+        letter-spacing: 1px;
+    }
+
+    .banner,
+    .players-details,
+    .highlights-copa-amrica,
+    .extra-players,
+    .different-clubs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner {
+        width: 100%;
+        grid-row-gap: 80px;
+    }
+
+    .banner-details {
+        margin-right: 66px;
+    }
+
+    .banner-details h2 {
+        font-size: 25px;
+    }
+
+    .banner-img img {
+        width: 300px;
+        height: 290px;
+    }
+
+    .players-details {
+        margin: 0px 45px;
+    }
+
+    .player img {
+        width: 100%;
+    }
+
+    .highlights-copa-amrica {
+        grid-row-gap: 29px;
+    }
+
+    .copa-amrica-details {
+        padding: 0px 20px;
+    }
+
+    .copa-amrica-title {
+        font-size: 30px;
+        color: #0A0826;
+    }
+
+    .copa-amrica-description {
+        color: #6C6C6C;
+        font-size: 16px;
+
+    }
+
+    .copa-amrica-img img {
+        width: 315px;
+        height: 230px;
+    }
+
+    .extra-players {
+        grid-row-gap: 80px;
+    }
+
+    .extra-players-detail {
+        width: 315px;
+    }
+
+    .extra-players-detail:hover .player-detail {
+        width: 315px;
+        height: 263px;
+    }
+
+    .different-clubs {
+        grid-row-gap: 29px;
+    }
+
+    .footer-img img {
+        width: 100%;
+    }
+}
+
+/* ----------------- Tablet Device -------------------- */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .common-container {
+        width: 80%;
+    }
+
+    .bar-icon {
+        display: block;
+        text-decoration: none;
+        color: white;
+        margin-top: 35px;
+        margin-left: 75px;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .btn-decoration {
+        padding: 5px 12px;
+        letter-spacing: 1px;
+    }
+
+
+    .banner,
+    .players-details,
+    .highlights-copa-amrica,
+    .extra-players,
+    .different-clubs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .banner {
+        width: 100%;
+        grid-column-gap: 80px;
+    }
+
+    .banner-details,
+    .banner-img {
+        margin-top: 50px;
+    }
+
+    .banner-details h2 {
+        font-size: 35px;
+    }
+
+    .banner-img img {
+        width: 350px;
+        height: 280px;
+    }
+
+    .player img {
+        width: 100%;
+    }
+
+    .highlights-copa-amrica {
+        grid-column-gap: 20px;
+    }
+
+    .copa-amrica-title {
+        font-size: 15px;
+    }
+
+    .copa-amrica-description {
+        font-size: 10px;
+    }
+
+    .copa-amrica-img {
+        margin-left: 60px;
+    }
+
+    .copa-amrica-img img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .extra-players {
+        grid-row-gap: 70px;
+    }
+
+    .different-clubs {
+        grid-row-gap: 29px;
+    }
+
+    .footer-img img {
+        width: 100%;
+    }
+
+}
